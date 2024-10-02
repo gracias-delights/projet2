@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOOYIA COMPANY</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="left"><img src="../img/img.png" alt="" height="50px", ></div>
+        <div class="right">
+            <button class="btn signin"  data-bs-toggle="modal" data-bs-target="#connectedModal">connected</button>
+            <button class="btn choicestatus"><a href="../html/about-us.html" class="btn-link">about us</a> </button>
+            <button class="btn block"><a href="../html/block.html" class="btn-link">about us</a> </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container main-content">
+        <div class="main-box">
+            <h1 style="color: #0000ff;">WELCOME AT HOOYIA</h1>
+            <h2>COMPANY</h2>
+            <p style="color: #000000;">
+                Cette plateforme a été créée afin que les stagiaires et les membres de l’entreprise puissent avoir une meilleure communication au sein de l’entreprise et aussi pour mieux gérer la gestion des demandes de permission et la soumission des rapports de stage hebdomadaire.
+            </p>
+        </div>
+        <div class="side-buttons">
+            <button class="btn">
+                <i class="fa-solid fa-user-plus"></i> connected
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="left">
+            <p class="text-info">HOOYIA COMPANY CONTACT</p>
+            <div class="social-icons">
+                <a href="#" class="btn"><i class="fab fa-facebook mx-1 text-info"></i>facebook</a><br>
+                <a href="#" class="btn" ><i class="fab fa-whatsapp  mx-1 bg-success"></i>+237 691435485/ +237 697907096</a><br>
+                <a href="#" class="btn"><i class ="fab fa-youtube  mx-1 text-danger"></i>youtube</a><br>
+            </div>
+        </div>
+        <div class="middle">
+            <p class="copyright"><i class="fa-solid fa-copyright"></i> 2024 Make in Cameroon by Tabetsing Lucas🍀</p>
+        </div>
+        <div class="right">
+            <h5 class="text-info">Our Services</h5>
+            <ul style="list-style: none; padding: 0;">
+                <li>Backend Developer</li>
+                <li>Front-end Developer</li>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="connectedModal" tabindex="-1" aria-labelledby="connectedModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white" id="connectedModalLabel">Enter vos information pour vous connecter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <form class="mt-5">
+                                    <div class="form-group">
+                                        <label for="nom">Nom</label>
+                                        <input type="text" class="form-control my-2" id="nom" placeholder="Entrez votre nom" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control  my-3" id="email" placeholder="Entrez votre email" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Connecter</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

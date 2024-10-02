@@ -1,0 +1,125 @@
+body {
+    background-color: #fff;
+}
+
+/* le header */
+.header {
+    background: linear-gradient(to left, #423ba8,  #001aaa);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left {
+    color: #ffffff; /* Blue color */
+    font-size: 1.5rem;
+}
+.header .right {
+    display: flex;
+    gap: 10px;
+}
+.header .right .btn {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.header .right .btn.signin {
+    background-color: #5151f0;
+}
+.header .right .btn.choicestatus {
+    background-color: #ffffff;
+    color: #0000ff;
+}
+
+
+
+/* le footer */
+.footer {
+    background: linear-gradient(to left, #423ba8,  #001aaa);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .left, .footer .middle, .footer .right {
+    flex: 1;
+}
+.footer .left, .footer .right {
+    text-align: center;
+}
+.footer .middle {
+    text-align: center;
+    margin: 10px 0;
+}
+.footer .social-icons {
+    margin: 10px 0;
+}
+.footer .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+.footer .copyright {
+    font-size: 0.9rem;
+    color: white;
+}
+.footer .copyright i {
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+
+.modal-header{
+    background: linear-gradient(to left, #423ba8,  #001aaa);
+}
+.modal-body .mt-5 .btn{
+    background: linear-gradient(to left, #4a3dfd,  #011aac);
+}
+/* css de la card */
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.btn.signin {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+.card {box-shadow: 0 0 30px rgba(0, 0, 0, 0.425);
+    
+    position: relative;
+    border-radius: 5%;
+    border-color: #bdbaba;
+}
+.card-img-top{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}
+@media (min-width: 992px) {
+    .col-lg-6 {
+        margin-bottom: 30px;
+    }
+}
+
+/* block */
+.side-buttons{
+    background: linear-gradient(to left, #766dff, rgb(29, 29, 177), #011481);
+    box-shadow: 0 0 20px rgb(0, 32, 173);
+    height: 20vh;
+    width: 60vw;
+    border-radius: 5em;
+    
+}

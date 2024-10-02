@@ -1,0 +1,58 @@
+Rouge = danger
+
+Utilisation : text-danger, bg-danger
+Bleu = primary
+
+Utilisation : text-primary, bg-primary
+Vert = success
+
+Utilisation : text-success, bg-success
+Jaune = warning
+
+Utilisation : text-warning, bg-warning
+Gris = secondary
+
+Utilisation : text-secondary, bg-secondary
+Cyan = info
+
+Utilisation : text-info, bg-info
+Violet = purple (non inclus dans les classes utilitaires par défaut, mais souvent utilisé dans des thèmes personnalisés)
+
+Utilisation : text-purple, bg-purple
+Orange = orange (non inclus par défaut dans les classes utilitaires, mais souvent ajouté dans des thèmes personnalisés)
+
+Utilisation : text-orange, bg-orange
+Rose = pink (non inclus par défaut, mais souvent utilisé dans des thèmes personnalisés)
+
+Utilisation : text-pink, bg-pink
+Bleu Clair = light (souvent utilisé pour des arrière-plans clairs)
+
+Utilisation : text-light, bg-light
+Bleu Foncé = dark (utilisé pour des arrière-plans foncés)
+
+Utilisation : text-dark, bg-dark
+Beige = light (souvent utilisé dans des thèmes personnalisés, mais pas une couleur spécifique de Bootstrap)
+
+Utilisation : text-light, bg-light
+Marron = brown (non inclus par défaut, mais souvent ajouté dans des thèmes personnalisés)
+
+Utilisation : text-brown, bg-brown
+Vert Clair = success (peut être utilisé pour des tons plus clairs de vert)
+
+Utilisation : text-success, bg-success
+Gris Clair = light (pour des tons plus clairs de gris)
+
+Utilisation : text-light, bg-light
+Utilisation en HTML :
+
+
+
+
+bonsoir chat stp je veus que tu me donne le code html pour les differents pages la premieres pages doit 
+contenir deux boutons gestion des rapports et gestion des demandes pour cette page tu dois inclus des elemznts
+ pour ambelir un peu la page tu mettra des elements avec des effets captivente de ton choix mais professionnelle 
+ stp la prochaine page page doit contnir egalement deux bouttons a savoir soummettre une demande et voir le status
+  de sa demande lorsqu'on doit cliquer sur soumettre une demande un pop pop (modal en bootstrap)  est envoyer a l'ecran
+   qui contient une sorte de formulaire ou il sera inscrit le nom de la demande, le motif de la demande , le type de 
+   demande (abscence ou retard) , la date de debut et la la date de fin de la permission . 
+tu realisera tout ceci avec uniquement boostratp et le html et tu mettra les icon approprie a chaque niveau
